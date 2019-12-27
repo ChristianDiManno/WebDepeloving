@@ -1,0 +1,22 @@
+var admin = ["Luca","Marco","Andrea","Alessandro","Diego"];
+var i = 0;
+var lingua = prompt("IT or EN?")
+
+
+if(lingua == "IT"){
+  var utente = prompt("Inserisci il nome utente");
+  while(i<admin.length){
+    if (utente == admin[i]){
+    alert("Fai parte degli admin");
+  }i++;}
+}
+
+
+if(lingua == "EN" || lingua == "en"){
+  var utente = prompt("Insert your user name");
+while(i<admin.length){
+  if (utente == admin[i]){
+  alert("Fai parte degli admin");
+}i++;}
+}
+
